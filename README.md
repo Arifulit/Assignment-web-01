@@ -68,18 +68,6 @@ You **cannot** do this with `type`. If you try to define the same `type` again, 
 
 ---
 
-### 4. Use Cases
-
-| Use Case                  | interface | type |
-| ------------------------- | --------- | ---- |
-| Describe object or class  | Yes       | Yes  |
-| Inherit another structure | Yes       | Yes  |
-| Combine multiple types    | No        | Yes  |
-| Primitives or tuples      | No        | Yes  |
-| Declaration merging       | Yes       | No   |
-
----
-
 ### Final Thoughts on Interface vs Type
 
 - Use **interface** when you’re working with objects, classes, or libraries like React.
